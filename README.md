@@ -1,5 +1,5 @@
 # TrunkProjetoIntegradorDH
-
+<img alt="Github License" src="https://img.shields.io/github/license/PaoloProdossimoLopes/TrunkProjetoIntegradorDH" />
 <!--
 Badges
 badges fom https://github-badges.netlify.app/
