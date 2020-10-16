@@ -35,10 +35,11 @@ badges fom https://github-badges.netlify.app/
 ## ABOUT THE PROJECT
 Read a news that you like about the world of tecnologie , Geek and sience;
 
-## TODO
+## MAIN FEATURES
 - Create a account.
 - Follow the best information from geek, science and technology.
-
+- Read news 
+- Update on realtime with RSS
 
 ## AUTHORS
 Paolo, paolo.prodossimo.lopes@gmail.com<br>
