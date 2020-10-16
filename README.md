@@ -3,7 +3,7 @@
 
 <h1> TrunkProjetoIntegradorDH </h1>
 
-<img alt="Github License" src="https://img.shields.io/github/license/PaoloProdossimoLopes/TrunkProjetoIntegradorDH" /> <img alt="GitHub Pull Requests" src="https://img.shields.io/github/issues-pr/PaoloProdossimoLopes/TrunkProjetoIntegradorDH" /> <img alt="GitHub Issues" src="https://img.shields.io/github/issues/PaoloProdossimoLopes/TrunkProjetoIntegradorDH" /> <img alt="GitHub Language Count" src="https://img.shields.io/github/languages/count/PaoloProdossimoLopes/TrunkProjetoIntegradorDH"/> <img src="https://visitor-badge.laobi.icu/badge?page_id=PaoloProdossimoLopes/TrunkProjetoIntegradorDH" id="counter">
+<img alt="Github License" src="https://img.shields.io/github/license/PaoloProdossimoLopes/TrunkProjetoIntegradorDH" /> <img alt="GitHub Pull Requests" src="https://img.shields.io/github/issues-pr/PaoloProdossimoLopes/TrunkProjetoIntegradorDH" /> <img alt="GitHub Issues" src="https://img.shields.io/github/issues/PaoloProdossimoLopes/TrunkProjetoIntegradorDH" /> <img alt="GitHub Language Count" src="https://img.shields.io/github/languages/count/PaoloProdossimoLopes/TrunkProjetoIntegradorDH"/> <img src="https://visitor-badge.laobi.icu/badge?page_id=PaoloProdossimoLopes/TrunkProjetoIntegradorDH" id="counter"> <img alt="GitHub Commit Activity (Year)" src="https://img.shields.io/github/commit-activity/y/PaoloProdossimoLopes/TrunkProjetoIntegradorDH" />
 
 ![Swift](https://img.shields.io/badge/Swift-FA7343?style=flat-square&logo=Swift&logoColor=white)
 ![Xcode](https://img.shields.io/badge/Xcode-1575F9?style=flat-square&logo=Xcode&logoColor=white)
@@ -33,7 +33,7 @@ badges fom https://github-badges.netlify.app/
 
 
 ## ABOUT THE PROJECT
-Read a news that you like about the world of tecnologie , Geek and sience;
+Read a news that you like about the world of Tecnologie , Geek and Sience
 
 ## MAIN FEATURES
 - Create a account.
@@ -42,7 +42,7 @@ Read a news that you like about the world of tecnologie , Geek and sience;
 - Update on realtime with RSS
 
 ## AUTHORS
-Paolo, paolo.prodossimo.lopes@gmail.com<br>
+Paolo, paolo.prodossimo.lopes@gmail.com<br> 
 Marcelo, marceloabisquarisi@gmail.com<br>
 Raphael, rap.oliveira@usp.br
 
