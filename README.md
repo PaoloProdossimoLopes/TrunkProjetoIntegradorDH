@@ -29,8 +29,7 @@ badges fom https://github-badges.netlify.app/
 -->
 
 
-<h2>PREVIEW</h2>
-<img src="images/FinalVideo.gif" alt = "Preview app"  />
+<img src="images/FinalVideo.gif" alt = "Preview app"  align="right" width="30%" />
 
 
 ## ABOUT THE PROJECT
