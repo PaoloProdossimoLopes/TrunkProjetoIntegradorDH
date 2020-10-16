@@ -28,10 +28,10 @@ badges fom https://github-badges.netlify.app/
 <img alt="Github License" src="https://img.shields.io/github/license/PaoloProdossimoLopes/TrunkProjetoIntegradorDH" />
 -->
 
-<div width="20%" align="right">
+
 <h2>PREVIEW</h2>
-<img src="images/FinalVideo.gif" alt = "Preview app" />
-</div>
+<img src="images/FinalVideo.gif" alt = "Preview app"  />
+
 
 ## ABOUT THE PROJECT
 Read a news that you like about the world of tecnologie , Geek and sience;
