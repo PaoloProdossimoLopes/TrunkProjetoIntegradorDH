@@ -1,5 +1,9 @@
+
+<img src="images/logo.jpeg" align="left" width="20%" height="auto"/>
+
 # TrunkProjetoIntegradorDH
-<img alt="Github License" src="https://img.shields.io/github/license/PaoloProdossimoLopes/TrunkProjetoIntegradorDH" />
+
+<img alt="Github License" src="https://img.shields.io/github/license/PaoloProdossimoLopes/TrunkProjetoIntegradorDH" /> <img alt="GitHub Pull Requests" src="https://img.shields.io/github/issues-pr/PaoloProdossimoLopes/TrunkProjetoIntegradorDH" /> <img alt="GitHub Issues" src="https://img.shields.io/github/issues/PaoloProdossimoLopes/TrunkProjetoIntegradorDH" /> <img alt="GitHub Language Count" src="https://img.shields.io/github/languages/count/PaoloProdossimoLopes/TrunkProjetoIntegradorDH" />
 <!--
 Badges
 badges fom https://github-badges.netlify.app/
