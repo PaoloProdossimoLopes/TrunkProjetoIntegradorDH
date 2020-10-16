@@ -24,7 +24,9 @@ badges fom https://github-badges.netlify.app/
 -->
 
 ## PREVIEW
-<video src="images/Videodemosntracao.mp4"/>
+
+<img src="images/FinalVideo.gif" alt = "Preview app" width="20%" align="right"/>
+
 
 ## ABOUT THE PROJECT
 Read a news that you like about the world of tecnologie , Geek and sience;
