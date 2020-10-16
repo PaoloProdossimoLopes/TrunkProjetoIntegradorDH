@@ -22,3 +22,22 @@ badges fom https://github-badges.netlify.app/
 <img alt="GitHub Commit Activity (Year)" src="https://img.shields.io/github/commit-activity/y/PaoloProdossimoLopes/TrunkProjetoIntegradorDH" />
 <img alt="Github License" src="https://img.shields.io/github/license/PaoloProdossimoLopes/TrunkProjetoIntegradorDH" />
 -->
+
+## PREVIEW
+<video src="images/Videodemosntracao.mp4"/>
+
+## ABOUT THE PROJECT
+Read a news that you like about the world of tecnologie , Geek and sience;
+
+## TODO
+- Create a account.
+- Follow the best information from geek, science and technology.
+
+
+## AUTHORS
+Paolo, paolo.prodossimo.lopes@gmail.com<br>
+Marcelo, marceloabisquarisi@gmail.com<br>
+Raphael, rap.oliveira@usp.br
+
+## LICENSE
+Trunk is available under the MIT license. See the LICENSE file for more info.
