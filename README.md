@@ -1,9 +1,14 @@
 
 <img src="images/logo.jpeg" align="left" width="20%" height="auto"/>
 
-# TrunkProjetoIntegradorDH
+<h1> TrunkProjetoIntegradorDH </h1>
 
-<img alt="Github License" src="https://img.shields.io/github/license/PaoloProdossimoLopes/TrunkProjetoIntegradorDH" /> <img alt="GitHub Pull Requests" src="https://img.shields.io/github/issues-pr/PaoloProdossimoLopes/TrunkProjetoIntegradorDH" /> <img alt="GitHub Issues" src="https://img.shields.io/github/issues/PaoloProdossimoLopes/TrunkProjetoIntegradorDH" /> <img alt="GitHub Language Count" src="https://img.shields.io/github/languages/count/PaoloProdossimoLopes/TrunkProjetoIntegradorDH" />
+<img alt="Github License" src="https://img.shields.io/github/license/PaoloProdossimoLopes/TrunkProjetoIntegradorDH" /> <img alt="GitHub Pull Requests" src="https://img.shields.io/github/issues-pr/PaoloProdossimoLopes/TrunkProjetoIntegradorDH" /> <img alt="GitHub Issues" src="https://img.shields.io/github/issues/PaoloProdossimoLopes/TrunkProjetoIntegradorDH" /> <img alt="GitHub Language Count" src="https://img.shields.io/github/languages/count/PaoloProdossimoLopes/TrunkProjetoIntegradorDH"/> <img src="https://visitor-badge.laobi.icu/badge?page_id=PaoloProdossimoLopes/TrunkProjetoIntegradorDH" id="counter">
+
+![Swift](https://img.shields.io/badge/Swift-FA7343?style=flat-square&logo=Swift&logoColor=white)
+![Xcode](https://img.shields.io/badge/Xcode-1575F9?style=flat-square&logo=Xcode&logoColor=white)
+
+
 <!--
 Badges
 badges fom https://github-badges.netlify.app/
@@ -23,16 +28,18 @@ badges fom https://github-badges.netlify.app/
 <img alt="Github License" src="https://img.shields.io/github/license/PaoloProdossimoLopes/TrunkProjetoIntegradorDH" />
 -->
 
-## PREVIEW
-<video src="images/Videodemosntracao.mp4"/>
+
+<img src="images/FinalVideo.gif" alt = "Preview app"  align="right" width="30%" />
+
 
 ## ABOUT THE PROJECT
 Read a news that you like about the world of tecnologie , Geek and sience;
 
-## TODO
+## MAIN FEATURES
 - Create a account.
 - Follow the best information from geek, science and technology.
-
+- Read news 
+- Update on realtime with RSS
 
 ## AUTHORS
 Paolo, paolo.prodossimo.lopes@gmail.com<br>
