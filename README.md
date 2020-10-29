@@ -31,24 +31,27 @@ badges fom https://github-badges.netlify.app/
 <!--
 <img src="images/FinalVideo.gif" alt = "Preview app"  align="right" width="30%" />
 -->
+<br/><br/><br/>
 
 <!--## ABOUT THE PROJECT-->
 <p align="center"><img src="https://github.com/PaoloProdossimoLopes/TrunkProjetoIntegradorDH/blob/main/images/AboutTheProject.png"/><p>
-Read a news that you like about the world of Tecnologie , Geek and Sience
+<p align="center">Read a news that you like about the world of Tecnologie , Geek and Sience
 
 <!--## MAIN FEATURES-->
 <p align="center"><img src="https://github.com/PaoloProdossimoLopes/TrunkProjetoIntegradorDH/blob/main/images/MainFeatures.png"/><p>
-- Create a account.
-- Follow the best information from geek, science and technology.
-- Read news 
-- Update on realtime with RSS
-
+<p align="center">
+  Create a account.<br/>
+  Follow the best information from geek, science and technology.<br/>
+  Read news <br/>
+  Update on realtime with RSS
+</p>
 <!--## AUTHORS-->
 <p align="center"><img src="https://github.com/PaoloProdossimoLopes/TrunkProjetoIntegradorDH/blob/main/images/TheAuthors.png"/><p>
-Paolo, paolo.prodossimo.lopes@gmail.com<br> 
-Marcelo, marceloabisquarisi@gmail.com<br>
-Raphael, rap.oliveira@usp.br
-
+<p align="center">
+  Paolo, paolo.prodossimo.lopes@gmail.com<br> 
+  Marcelo, marceloabisquarisi@gmail.com<br>
+  Raphael, rap.oliveira@usp.br
+</p>
 <!--## LICENSE-->
 <p align="center"><img src="https://github.com/PaoloProdossimoLopes/TrunkProjetoIntegradorDH/blob/main/images/LICENCE.png"/><p>
-Trunk is available under the MIT license. See the LICENSE file for more info.
+<p align="center">Trunk is available under the MIT license. See the LICENSE file for more info.</p>
