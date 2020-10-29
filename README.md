@@ -4,8 +4,6 @@
 <p align="center"/>
 <img alt="Github License" src="https://img.shields.io/github/license/PaoloProdossimoLopes/TrunkProjetoIntegradorDH" /> <img alt="GitHub Pull Requests" src="https://img.shields.io/github/issues-pr/PaoloProdossimoLopes/TrunkProjetoIntegradorDH" /> <img alt="GitHub Issues" src="https://img.shields.io/github/issues/PaoloProdossimoLopes/TrunkProjetoIntegradorDH" /> <img alt="GitHub Language Count" src="https://img.shields.io/github/languages/count/PaoloProdossimoLopes/TrunkProjetoIntegradorDH"/> <img src="https://visitor-badge.laobi.icu/badge?page_id=PaoloProdossimoLopes/TrunkProjetoIntegradorDH" id="counter"> <img alt="GitHub Commit Activity (Year)" src="https://img.shields.io/github/commit-activity/y/PaoloProdossimoLopes/TrunkProjetoIntegradorDH" />
 </p>
-<img align="center" alt="Swift 5" src="https://img.shields.io/badge/Swift-FA7343?style=flat-square&logo=Swift&logoColor=white"/> <img align="center" alt="Xcode 11" src="https://img.shields.io/badge/Xcode-1575F9?style=flat-square&logo=Xcode&logoColor=white"/>
-
 
 <!--
 Badges
@@ -33,6 +31,10 @@ badges fom https://github-badges.netlify.app/
 
 <!--## ABOUT THE PROJECT-->
 <p align="center"><img src="https://github.com/PaoloProdossimoLopes/TrunkProjetoIntegradorDH/blob/main/images/AboutTheProject.png"/><p>
+<p align="center"/>
+<a href="#"><img  alt="Swift 5" src="https://img.shields.io/badge/Swift-a50f0f?style=flat-square&logo=Swift&logoColor=white"/></a>
+<a href="#"><img  alt="Xcode 11" src="https://img.shields.io/badge/Xcode-a50f0f?style=flat-square&logo=Xcode&logoColor=white"/></a>
+</p>
 <p align="center">Read a news that you like about the world of Tecnologie , Geek and Sience
 
 <!--## MAIN FEATURES-->
