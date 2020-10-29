@@ -1,7 +1,5 @@
 
-<img src="images/logo.jpeg" align="left" width="20%" height="auto"/>
-
-<h1> TrunkProjetoIntegradorDH </h1>
+<img src="https://github.com/PaoloProdossimoLopes/TrunkProjetoIntegradorDH/blob/main/images/readme_header.png" align="center"  height="auto"/>
 
 <img alt="Github License" src="https://img.shields.io/github/license/PaoloProdossimoLopes/TrunkProjetoIntegradorDH" /> <img alt="GitHub Pull Requests" src="https://img.shields.io/github/issues-pr/PaoloProdossimoLopes/TrunkProjetoIntegradorDH" /> <img alt="GitHub Issues" src="https://img.shields.io/github/issues/PaoloProdossimoLopes/TrunkProjetoIntegradorDH" /> <img alt="GitHub Language Count" src="https://img.shields.io/github/languages/count/PaoloProdossimoLopes/TrunkProjetoIntegradorDH"/> <img src="https://visitor-badge.laobi.icu/badge?page_id=PaoloProdossimoLopes/TrunkProjetoIntegradorDH" id="counter"> <img alt="GitHub Commit Activity (Year)" src="https://img.shields.io/github/commit-activity/y/PaoloProdossimoLopes/TrunkProjetoIntegradorDH" />
 
@@ -40,10 +38,10 @@ badges fom https://github-badges.netlify.app/
 <!--## MAIN FEATURES-->
 <p align="center"><img src="https://github.com/PaoloProdossimoLopes/TrunkProjetoIntegradorDH/blob/main/images/MainFeatures.png"/><p>
 <p align="center">
-  Create a account.<br/>
-  Follow the best information from geek, science and technology.<br/>
-  Read news <br/>
-  Update on realtime with RSS
+    * Create a account.<br/>
+    * Follow the best information from geek, science and technology.<br/>
+    * Read news <br/>
+    * Update on realtime with RSS
 </p>
 <!--## AUTHORS-->
 <p align="center"><img src="https://github.com/PaoloProdossimoLopes/TrunkProjetoIntegradorDH/blob/main/images/TheAuthors.png"/><p>
