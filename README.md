@@ -27,7 +27,6 @@ badges fom https://github-badges.netlify.app/
 <!--
 <img src="images/FinalVideo.gif" alt = "Preview app"  align="right" width="30%" />
 -->
-<br/><br/><br/>
 
 <!--## ABOUT THE PROJECT-->
 <p align="center"><img src="https://github.com/PaoloProdossimoLopes/TrunkProjetoIntegradorDH/blob/main/images/AboutTheProject.png"/><p>
