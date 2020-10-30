@@ -1,6 +1,7 @@
 
 <img src="https://github.com/PaoloProdossimoLopes/TrunkProjetoIntegradorDH/blob/main/images/readme_header.png" align="center"  height="auto"/>
 
+<p align="center"><img src="https://github.com/PaoloProdossimoLopes/TrunkProjetoIntegradorDH/blob/main/images/ProjectPreview.png"/><p>
 <br/><br/><br/>
 <a href="#"/>
    <img src="https://github.com/PaoloProdossimoLopes/TrunkProjetoIntegradorDH/blob/main/images/LOAD.gif" align="left"  width="30%"/>
