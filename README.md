@@ -1,6 +1,8 @@
 
 <img src="https://github.com/PaoloProdossimoLopes/TrunkProjetoIntegradorDH/blob/main/images/readme_header.png" align="center"  height="auto"/>
 
+<!--## Trunk stats-->
+<p align="center"><img src="https://github.com/PaoloProdossimoLopes/TrunkProjetoIntegradorDH/blob/main/images/TrunkStats.png"/><p>
 <p align="center"/>
 <img alt="Github License" src="https://img.shields.io/github/license/PaoloProdossimoLopes/TrunkProjetoIntegradorDH" /> <img alt="GitHub Pull Requests" src="https://img.shields.io/github/issues-pr/PaoloProdossimoLopes/TrunkProjetoIntegradorDH" /> <img alt="GitHub Issues" src="https://img.shields.io/github/issues/PaoloProdossimoLopes/TrunkProjetoIntegradorDH" /> <img alt="GitHub Language Count" src="https://img.shields.io/github/languages/count/PaoloProdossimoLopes/TrunkProjetoIntegradorDH"/> <img src="https://visitor-badge.laobi.icu/badge?page_id=PaoloProdossimoLopes/TrunkProjetoIntegradorDH" id="counter"> <img alt="GitHub Commit Activity (Year)" src="https://img.shields.io/github/commit-activity/y/PaoloProdossimoLopes/TrunkProjetoIntegradorDH" />
 </p>
