@@ -1,6 +1,7 @@
-
+<!-- Header -->
 <img src="https://github.com/PaoloProdossimoLopes/TrunkProjetoIntegradorDH/blob/main/images/readme_header.png" align="center"  height="auto"/>
 
+<!-- Project Preview -->
 <p align="center"><img src="https://github.com/PaoloProdossimoLopes/TrunkProjetoIntegradorDH/blob/main/images/ProjectPreview.png"/><p>
 <br/><br/><br/>
 <a href="#"/>
@@ -59,6 +60,14 @@ badges fom https://github-badges.netlify.app/
     * Read news <br/>
     * Update on realtime with RSS
 </p>
+
+
+<!--## Tecnologies -->
+<p align="center"/>
+<a href="#"><img  alt="Swift 5" src="https://img.shields.io/badge/Swift-a50f0f?style=flat-square&logo=Swift&logoColor=white"/></a>
+<a href="#"><img  alt="Xcode 11" src="https://img.shields.io/badge/Xcode-a50f0f?style=flat-square&logo=Xcode&logoColor=white"/></a>
+</p>
+
 <!--## AUTHORS-->
 <p align="center"><img src="https://github.com/PaoloProdossimoLopes/TrunkProjetoIntegradorDH/blob/main/images/TheAuthors.png"/><p>
 <p align="center">
