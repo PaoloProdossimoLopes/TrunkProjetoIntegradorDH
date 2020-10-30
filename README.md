@@ -11,7 +11,7 @@
 <br/><br/><br/>
 <a href="#"/>
    <img src="https://github.com/PaoloProdossimoLopes/TrunkProjetoIntegradorDH/blob/main/images/LOAD.gif" align="left"  width="30%"/>
-   <img src="https://github.com/PaoloProdossimoLopes/TrunkProjetoIntegradorDH/blob/main/images/OnDevelopment.png" align="right"  width="65%" />
+   <img src="https://github.com/PaoloProdossimoLopes/TrunkProjetoIntegradorDH/blob/main/images/OnDev.png" align="right"  width="65%" />
 </a>
 
 <br/><br/><br/><br/><br/>
