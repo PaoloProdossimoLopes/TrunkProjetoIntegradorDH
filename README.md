@@ -7,6 +7,19 @@
 <img alt="Github License" src="https://img.shields.io/github/license/PaoloProdossimoLopes/TrunkProjetoIntegradorDH" /> <img alt="GitHub Pull Requests" src="https://img.shields.io/github/issues-pr/PaoloProdossimoLopes/TrunkProjetoIntegradorDH" /> <img alt="GitHub Issues" src="https://img.shields.io/github/issues/PaoloProdossimoLopes/TrunkProjetoIntegradorDH" /> <img alt="GitHub Language Count" src="https://img.shields.io/github/languages/count/PaoloProdossimoLopes/TrunkProjetoIntegradorDH"/> <img src="https://visitor-badge.laobi.icu/badge?page_id=PaoloProdossimoLopes/TrunkProjetoIntegradorDH" id="counter"> <img alt="GitHub Commit Activity (Year)" src="https://img.shields.io/github/commit-activity/y/PaoloProdossimoLopes/TrunkProjetoIntegradorDH" />
 </p>
 
+
+<br/><br/><br/>
+<a href="#"/>
+   <img src="https://github.com/PaoloProdossimoLopes/TrunkProjetoIntegradorDH/blob/main/images/LOAD.gif" align="left"  width="30%"/>
+   <img src="https://github.com/PaoloProdossimoLopes/TrunkProjetoIntegradorDH/blob/main/images/OnDevelopment.png" align="right"  width="65%" />
+</a>
+
+<br/><br/><br/><br/><br/>
+<br/><br/><br/><br/><br/>
+<br/>
+
+
+
 <!--
 Badges
 badges fom https://github-badges.netlify.app/
@@ -29,17 +42,6 @@ badges fom https://github-badges.netlify.app/
 <!--
 <img src="images/FinalVideo.gif" alt = "Preview app"  align="center" width="30%" />
 -->
-<br/><br/><br/>
-<a href="#"/>
-   <img src="https://github.com/PaoloProdossimoLopes/TrunkProjetoIntegradorDH/blob/main/images/LOAD.gif" align="left"  width="30%"/>
-   <img src="https://github.com/PaoloProdossimoLopes/TrunkProjetoIntegradorDH/blob/main/images/OnDevelopment.png" align="right"  width="65%" />
-</a>
-
-<br/><br/><br/><br/><br/>
-<br/><br/><br/><br/><br/>
-<br/>
-
-
 
 <!--## ABOUT THE PROJECT-->
 <p align="center"><img src="https://github.com/PaoloProdossimoLopes/TrunkProjetoIntegradorDH/blob/main/images/AboutTheProject.png"/><p>
