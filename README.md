@@ -46,10 +46,6 @@ badges fom https://github-badges.netlify.app/
 
 <!--## ABOUT THE PROJECT-->
 <p align="center"><img src="https://github.com/PaoloProdossimoLopes/TrunkProjetoIntegradorDH/blob/main/images/AboutTheProject.png"/><p>
-<p align="center"/>
-<a href="#"><img  alt="Swift 5" src="https://img.shields.io/badge/Swift-a50f0f?style=flat-square&logo=Swift&logoColor=white"/></a>
-<a href="#"><img  alt="Xcode 11" src="https://img.shields.io/badge/Xcode-a50f0f?style=flat-square&logo=Xcode&logoColor=white"/></a>
-</p>
 <p align="center">Read a news that you like about the world of Tecnologie , Geek and Sience
 
 <!--## MAIN FEATURES-->
