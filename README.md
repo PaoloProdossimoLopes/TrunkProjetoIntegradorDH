@@ -2,13 +2,20 @@
 <img src="https://github.com/PaoloProdossimoLopes/TrunkProjetoIntegradorDH/blob/main/images/readme_header.png" align="center"  height="auto"/>
 
 <!-- Project Preview -->
+
 <p align="center"><img src="https://github.com/PaoloProdossimoLopes/TrunkProjetoIntegradorDH/blob/main/images/ProjectPreview.png"/><p>
 <br/><br/><br/>
+
+<a href="#"/>
+   <img src="https://github.com/PaoloProdossimoLopes/TrunkProjetoIntegradorDH/blob/main/images/TrunkIphoneFront.png" align="left"  width="30%"/>
+   <img src="https://github.com/PaoloProdossimoLopes/TrunkProjetoIntegradorDH/blob/main/images/ezgif.com-crop.gif" align="right"  width="65%" />
+</a>
+<!--
 <a href="#"/>
    <img src="https://github.com/PaoloProdossimoLopes/TrunkProjetoIntegradorDH/blob/main/images/LOAD.gif" align="left"  width="30%"/>
    <img src="https://github.com/PaoloProdossimoLopes/TrunkProjetoIntegradorDH/blob/main/images/OnDev.png" align="right"  width="65%" />
 </a>
-
+-->
 <br/><br/><br/><br/><br/>
 <br/><br/><br/><br/><br/>
 <br/>
