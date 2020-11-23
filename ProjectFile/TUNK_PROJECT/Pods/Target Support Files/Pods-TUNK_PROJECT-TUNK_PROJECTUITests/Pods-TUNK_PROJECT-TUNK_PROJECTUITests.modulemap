@@ -1,0 +1,6 @@
+framework module Pods_TUNK_PROJECT_TUNK_PROJECTUITests {
+  umbrella header "Pods-TUNK_PROJECT-TUNK_PROJECTUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
