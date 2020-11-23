@@ -15,35 +15,25 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LogoTrunk.png" translatesAutoresizingMaskIntoConstraints="NO" id="bPN-nX-QZD">
-                                <rect key="frame" x="87" y="53" width="240" height="512"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Background-Trunk.png" translatesAutoresizingMaskIntoConstraints="NO" id="s5K-Ni-vv5">
+                                <rect key="frame" x="-51" y="-22" width="518" height="929"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LOGO-SPLASH-SCREEN.png" translatesAutoresizingMaskIntoConstraints="NO" id="bPN-nX-QZD">
+                                <rect key="frame" x="87" y="328" width="240" height="240"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="240" id="8AP-IS-U6E"/>
                                     <constraint firstAttribute="width" constant="240" id="Jxp-Zw-6tt"/>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="512" id="XUc-go-o65"/>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="240" id="zJJ-rp-b0G"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="LOADING ..." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0r1-kb-YEm">
-                                <rect key="frame" x="20" y="445" width="374" height="46"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="46" id="Vci-En-Vtt"/>
-                                    <constraint firstAttribute="width" constant="374" id="pE7-SW-hvd"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" weight="black" pointSize="38"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="0r1-kb-YEm" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="IEH-rW-GYr"/>
-                            <constraint firstItem="bPN-nX-QZD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="87" id="NTJ-e8-wzo"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="0r1-kb-YEm" secondAttribute="trailing" constant="20" id="RK5-1I-lXb"/>
-                            <constraint firstItem="bPN-nX-QZD" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="9" id="cS4-Zw-pK6"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="bPN-nX-QZD" secondAttribute="bottom" constant="297" id="hMZ-f2-9yb"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="bPN-nX-QZD" secondAttribute="trailing" constant="87" id="p6Q-8k-W1k"/>
-                            <constraint firstItem="0r1-kb-YEm" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="401" id="zhd-5j-c7q"/>
+                            <constraint firstItem="bPN-nX-QZD" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="RUq-ev-ck2"/>
+                            <constraint firstItem="bPN-nX-QZD" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="z4e-Ba-koy"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -54,6 +44,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="LogoTrunk.png" width="512" height="512"/>
+        <image name="Background-Trunk.png" width="258" height="562"/>
+        <image name="LOGO-SPLASH-SCREEN.png" width="1117.0909423828125" height="1117.0909423828125"/>
     </resources>
 </document>

@@ -16,6 +16,19 @@
 		520AE88D25667FD1002D0936 /* TUNK_PROJECTTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520AE88C25667FD1002D0936 /* TUNK_PROJECTTests.swift */; };
 		520AE89825667FD1002D0936 /* TUNK_PROJECTUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520AE89725667FD1002D0936 /* TUNK_PROJECTUITests.swift */; };
 		520AE8A82566809A002D0936 /* LogoTrunk.png in Resources */ = {isa = PBXBuildFile; fileRef = 520AE8A72566809A002D0936 /* LogoTrunk.png */; };
+		5294627B2567E59B003B4B0C /* RecoveryAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5294627A2567E59B003B4B0C /* RecoveryAccountViewController.swift */; };
+		5294627D2567E5A6003B4B0C /* RecoveryAccount.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5294627C2567E5A6003B4B0C /* RecoveryAccount.storyboard */; };
+		5297D708256944FA005A545C /* LOGO-SPLASH-SCREEN.png in Resources */ = {isa = PBXBuildFile; fileRef = 5297D707256944FA005A545C /* LOGO-SPLASH-SCREEN.png */; };
+		5297D70B256947BC005A545C /* Background-Trunk.png in Resources */ = {isa = PBXBuildFile; fileRef = 5297D70A256947BC005A545C /* Background-Trunk.png */; };
+		529FF973256B203D00456EC9 /* Captura de Tela 2020-11-22 às 19.38.03.png in Resources */ = {isa = PBXBuildFile; fileRef = 529FF972256B203D00456EC9 /* Captura de Tela 2020-11-22 às 19.38.03.png */; };
+		529FF977256B22C600456EC9 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529FF976256B22C600456EC9 /* SignInViewController.swift */; };
+		529FF979256B22CF00456EC9 /* SignIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 529FF978256B22CF00456EC9 /* SignIn.storyboard */; };
+		529FF97D256B22FA00456EC9 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 529FF97C256B22FA00456EC9 /* SignUpViewController.swift */; };
+		529FF97F256B230200456EC9 /* SignUp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 529FF97E256B230200456EC9 /* SignUp.storyboard */; };
+		529FF982256B245E00456EC9 /* Bg-Sign-In.png in Resources */ = {isa = PBXBuildFile; fileRef = 529FF980256B245D00456EC9 /* Bg-Sign-In.png */; };
+		529FF983256B245E00456EC9 /* Bg-Sign-up.png in Resources */ = {isa = PBXBuildFile; fileRef = 529FF981256B245D00456EC9 /* Bg-Sign-up.png */; };
+		52A19D7F25680AD90063BBEC /* AleartRecoverySenderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A19D7E25680AD90063BBEC /* AleartRecoverySenderViewController.swift */; };
+		52A19D8125680AEC0063BBEC /* AleartRecoverySender.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52A19D8025680AEC0063BBEC /* AleartRecoverySender.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +64,19 @@
 		520AE89725667FD1002D0936 /* TUNK_PROJECTUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TUNK_PROJECTUITests.swift; sourceTree = "<group>"; };
 		520AE89925667FD1002D0936 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		520AE8A72566809A002D0936 /* LogoTrunk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LogoTrunk.png; sourceTree = "<group>"; };
+		5294627A2567E59B003B4B0C /* RecoveryAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecoveryAccountViewController.swift; sourceTree = "<group>"; };
+		5294627C2567E5A6003B4B0C /* RecoveryAccount.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RecoveryAccount.storyboard; sourceTree = "<group>"; };
+		5297D707256944FA005A545C /* LOGO-SPLASH-SCREEN.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LOGO-SPLASH-SCREEN.png"; sourceTree = "<group>"; };
+		5297D70A256947BC005A545C /* Background-Trunk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Background-Trunk.png"; sourceTree = "<group>"; };
+		529FF972256B203D00456EC9 /* Captura de Tela 2020-11-22 às 19.38.03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Captura de Tela 2020-11-22 às 19.38.03.png"; sourceTree = "<group>"; };
+		529FF976256B22C600456EC9 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		529FF978256B22CF00456EC9 /* SignIn.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignIn.storyboard; sourceTree = "<group>"; };
+		529FF97C256B22FA00456EC9 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		529FF97E256B230200456EC9 /* SignUp.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignUp.storyboard; sourceTree = "<group>"; };
+		529FF980256B245D00456EC9 /* Bg-Sign-In.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bg-Sign-In.png"; sourceTree = "<group>"; };
+		529FF981256B245D00456EC9 /* Bg-Sign-up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bg-Sign-up.png"; sourceTree = "<group>"; };
+		52A19D7E25680AD90063BBEC /* AleartRecoverySenderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AleartRecoverySenderViewController.swift; sourceTree = "<group>"; };
+		52A19D8025680AEC0063BBEC /* AleartRecoverySender.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AleartRecoverySender.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +127,16 @@
 		520AE87425667FCF002D0936 /* TUNK_PROJECT */ = {
 			isa = PBXGroup;
 			children = (
+				529FF975256B22AE00456EC9 /* SignIn */,
+				529FF974256B22A400456EC9 /* SignUp */,
+				529462792567E55D003B4B0C /* RecoveryAccount */,
+				52A19D7C2568070A0063BBEC /* Default */,
+				5297D70925694642005A545C /* Images */,
 				520AE87525667FCF002D0936 /* AppDelegate.swift */,
 				520AE87725667FCF002D0936 /* SceneDelegate.swift */,
-				520AE87925667FCF002D0936 /* ViewController.swift */,
-				520AE87B25667FCF002D0936 /* Main.storyboard */,
 				520AE87E25667FD0002D0936 /* Assets.xcassets */,
 				520AE88025667FD0002D0936 /* LaunchScreen.storyboard */,
 				520AE88325667FD0002D0936 /* Info.plist */,
-				520AE8A72566809A002D0936 /* LogoTrunk.png */,
 			);
 			path = TUNK_PROJECT;
 			sourceTree = "<group>";
@@ -129,6 +157,65 @@
 				520AE89925667FD1002D0936 /* Info.plist */,
 			);
 			path = TUNK_PROJECTUITests;
+			sourceTree = "<group>";
+		};
+		529462792567E55D003B4B0C /* RecoveryAccount */ = {
+			isa = PBXGroup;
+			children = (
+				52A19D7D25680A9F0063BBEC /* AleartRecoverySender */,
+				5294627A2567E59B003B4B0C /* RecoveryAccountViewController.swift */,
+				5294627C2567E5A6003B4B0C /* RecoveryAccount.storyboard */,
+			);
+			path = RecoveryAccount;
+			sourceTree = "<group>";
+		};
+		5297D70925694642005A545C /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				529FF980256B245D00456EC9 /* Bg-Sign-In.png */,
+				529FF981256B245D00456EC9 /* Bg-Sign-up.png */,
+				529FF972256B203D00456EC9 /* Captura de Tela 2020-11-22 às 19.38.03.png */,
+				5297D70A256947BC005A545C /* Background-Trunk.png */,
+				520AE8A72566809A002D0936 /* LogoTrunk.png */,
+				5297D707256944FA005A545C /* LOGO-SPLASH-SCREEN.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		529FF974256B22A400456EC9 /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				529FF97C256B22FA00456EC9 /* SignUpViewController.swift */,
+				529FF97E256B230200456EC9 /* SignUp.storyboard */,
+			);
+			path = SignUp;
+			sourceTree = "<group>";
+		};
+		529FF975256B22AE00456EC9 /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				529FF976256B22C600456EC9 /* SignInViewController.swift */,
+				529FF978256B22CF00456EC9 /* SignIn.storyboard */,
+			);
+			path = SignIn;
+			sourceTree = "<group>";
+		};
+		52A19D7C2568070A0063BBEC /* Default */ = {
+			isa = PBXGroup;
+			children = (
+				520AE87925667FCF002D0936 /* ViewController.swift */,
+				520AE87B25667FCF002D0936 /* Main.storyboard */,
+			);
+			path = Default;
+			sourceTree = "<group>";
+		};
+		52A19D7D25680A9F0063BBEC /* AleartRecoverySender */ = {
+			isa = PBXGroup;
+			children = (
+				52A19D7E25680AD90063BBEC /* AleartRecoverySenderViewController.swift */,
+				52A19D8025680AEC0063BBEC /* AleartRecoverySender.storyboard */,
+			);
+			path = AleartRecoverySender;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,10 +322,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5297D70B256947BC005A545C /* Background-Trunk.png in Resources */,
 				520AE88225667FD0002D0936 /* LaunchScreen.storyboard in Resources */,
+				52A19D8125680AEC0063BBEC /* AleartRecoverySender.storyboard in Resources */,
+				529FF97F256B230200456EC9 /* SignUp.storyboard in Resources */,
+				529FF982256B245E00456EC9 /* Bg-Sign-In.png in Resources */,
 				520AE8A82566809A002D0936 /* LogoTrunk.png in Resources */,
+				5297D708256944FA005A545C /* LOGO-SPLASH-SCREEN.png in Resources */,
 				520AE87F25667FD0002D0936 /* Assets.xcassets in Resources */,
+				529FF979256B22CF00456EC9 /* SignIn.storyboard in Resources */,
+				529FF973256B203D00456EC9 /* Captura de Tela 2020-11-22 às 19.38.03.png in Resources */,
 				520AE87D25667FCF002D0936 /* Main.storyboard in Resources */,
+				529FF983256B245E00456EC9 /* Bg-Sign-up.png in Resources */,
+				5294627D2567E5A6003B4B0C /* RecoveryAccount.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,7 +360,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				520AE87A25667FCF002D0936 /* ViewController.swift in Sources */,
+				529FF97D256B22FA00456EC9 /* SignUpViewController.swift in Sources */,
+				5294627B2567E59B003B4B0C /* RecoveryAccountViewController.swift in Sources */,
+				529FF977256B22C600456EC9 /* SignInViewController.swift in Sources */,
 				520AE87625667FCF002D0936 /* AppDelegate.swift in Sources */,
+				52A19D7F25680AD90063BBEC /* AleartRecoverySenderViewController.swift in Sources */,
 				520AE87825667FCF002D0936 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
