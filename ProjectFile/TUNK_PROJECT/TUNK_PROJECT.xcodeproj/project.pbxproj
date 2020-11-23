@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3FAD9B13821744946A328157 /* Pods_TUNK_PROJECTTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 43891A8F7EFC7E334B42591C /* Pods_TUNK_PROJECTTests.framework */; };
 		520AE87625667FCF002D0936 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520AE87525667FCF002D0936 /* AppDelegate.swift */; };
 		520AE87825667FCF002D0936 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520AE87725667FCF002D0936 /* SceneDelegate.swift */; };
 		520AE87A25667FCF002D0936 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520AE87925667FCF002D0936 /* ViewController.swift */; };
@@ -29,6 +30,19 @@
 		529FF983256B245E00456EC9 /* Bg-Sign-up.png in Resources */ = {isa = PBXBuildFile; fileRef = 529FF981256B245D00456EC9 /* Bg-Sign-up.png */; };
 		52A19D7F25680AD90063BBEC /* AleartRecoverySenderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52A19D7E25680AD90063BBEC /* AleartRecoverySenderViewController.swift */; };
 		52A19D8125680AEC0063BBEC /* AleartRecoverySender.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52A19D8025680AEC0063BBEC /* AleartRecoverySender.storyboard */; };
+		96282336E6E30D35BFE6F816 /* Pods_TUNK_PROJECT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35587B46297210CCC82FCB0C /* Pods_TUNK_PROJECT.framework */; };
+		ACED5E6453945CE43C15D7D3 /* Pods_TUNK_PROJECT_TUNK_PROJECTUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8F07E8F88C1397796150A61 /* Pods_TUNK_PROJECT_TUNK_PROJECTUITests.framework */; };
+		C5B6BBB0256BEE8D002F992A /* ic_password_checkmark.png in Resources */ = {isa = PBXBuildFile; fileRef = C5B6BBA5256BEE8D002F992A /* ic_password_checkmark.png */; };
+		C5B6BBB1256BEE8D002F992A /* ic_eye_closed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5B6BBA6256BEE8D002F992A /* ic_eye_closed@2x.png */; };
+		C5B6BBB2256BEE8D002F992A /* ic_eye_closed@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5B6BBA7256BEE8D002F992A /* ic_eye_closed@3x.png */; };
+		C5B6BBB3256BEE8D002F992A /* ic_eye_open.png in Resources */ = {isa = PBXBuildFile; fileRef = C5B6BBA8256BEE8D002F992A /* ic_eye_open.png */; };
+		C5B6BBB4256BEE8D002F992A /* ic_password_checkmark@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5B6BBA9256BEE8D002F992A /* ic_password_checkmark@2x.png */; };
+		C5B6BBB5256BEE8D002F992A /* HideShowPasswordTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B6BBAA256BEE8D002F992A /* HideShowPasswordTextField.swift */; };
+		C5B6BBB6256BEE8D002F992A /* ic_eye_open@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5B6BBAB256BEE8D002F992A /* ic_eye_open@3x.png */; };
+		C5B6BBB7256BEE8D002F992A /* ic_eye_closed.png in Resources */ = {isa = PBXBuildFile; fileRef = C5B6BBAC256BEE8D002F992A /* ic_eye_closed.png */; };
+		C5B6BBB8256BEE8D002F992A /* ic_eye_open@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5B6BBAD256BEE8D002F992A /* ic_eye_open@2x.png */; };
+		C5B6BBB9256BEE8D002F992A /* ic_password_checkmark@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5B6BBAE256BEE8D002F992A /* ic_password_checkmark@3x.png */; };
+		C5B6BBBA256BEE8D002F992A /* PasswordToggleVisibilityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5B6BBAF256BEE8D002F992A /* PasswordToggleVisibilityView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +63,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C1A36FF54F28549A220B0FD /* Pods-TUNK_PROJECTTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TUNK_PROJECTTests.debug.xcconfig"; path = "Target Support Files/Pods-TUNK_PROJECTTests/Pods-TUNK_PROJECTTests.debug.xcconfig"; sourceTree = "<group>"; };
+		35587B46297210CCC82FCB0C /* Pods_TUNK_PROJECT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TUNK_PROJECT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		43891A8F7EFC7E334B42591C /* Pods_TUNK_PROJECTTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TUNK_PROJECTTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		520AE87225667FCF002D0936 /* TUNK_PROJECT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TUNK_PROJECT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		520AE87525667FCF002D0936 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		520AE87725667FCF002D0936 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -77,6 +94,23 @@
 		529FF981256B245D00456EC9 /* Bg-Sign-up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Bg-Sign-up.png"; sourceTree = "<group>"; };
 		52A19D7E25680AD90063BBEC /* AleartRecoverySenderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AleartRecoverySenderViewController.swift; sourceTree = "<group>"; };
 		52A19D8025680AEC0063BBEC /* AleartRecoverySender.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = AleartRecoverySender.storyboard; sourceTree = "<group>"; };
+		55D481691A696D70757DADBF /* Pods-TUNK_PROJECT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TUNK_PROJECT.release.xcconfig"; path = "Target Support Files/Pods-TUNK_PROJECT/Pods-TUNK_PROJECT.release.xcconfig"; sourceTree = "<group>"; };
+		5E630D8646BE17462D675E06 /* Pods-TUNK_PROJECT-TUNK_PROJECTUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TUNK_PROJECT-TUNK_PROJECTUITests.release.xcconfig"; path = "Target Support Files/Pods-TUNK_PROJECT-TUNK_PROJECTUITests/Pods-TUNK_PROJECT-TUNK_PROJECTUITests.release.xcconfig"; sourceTree = "<group>"; };
+		73FB44C883FE262E2409F12E /* Pods-TUNK_PROJECTTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TUNK_PROJECTTests.release.xcconfig"; path = "Target Support Files/Pods-TUNK_PROJECTTests/Pods-TUNK_PROJECTTests.release.xcconfig"; sourceTree = "<group>"; };
+		C5B6BBA5256BEE8D002F992A /* ic_password_checkmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_password_checkmark.png; sourceTree = "<group>"; };
+		C5B6BBA6256BEE8D002F992A /* ic_eye_closed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_eye_closed@2x.png"; sourceTree = "<group>"; };
+		C5B6BBA7256BEE8D002F992A /* ic_eye_closed@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_eye_closed@3x.png"; sourceTree = "<group>"; };
+		C5B6BBA8256BEE8D002F992A /* ic_eye_open.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_eye_open.png; sourceTree = "<group>"; };
+		C5B6BBA9256BEE8D002F992A /* ic_password_checkmark@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_password_checkmark@2x.png"; sourceTree = "<group>"; };
+		C5B6BBAA256BEE8D002F992A /* HideShowPasswordTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HideShowPasswordTextField.swift; sourceTree = "<group>"; };
+		C5B6BBAB256BEE8D002F992A /* ic_eye_open@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_eye_open@3x.png"; sourceTree = "<group>"; };
+		C5B6BBAC256BEE8D002F992A /* ic_eye_closed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_eye_closed.png; sourceTree = "<group>"; };
+		C5B6BBAD256BEE8D002F992A /* ic_eye_open@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_eye_open@2x.png"; sourceTree = "<group>"; };
+		C5B6BBAE256BEE8D002F992A /* ic_password_checkmark@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_password_checkmark@3x.png"; sourceTree = "<group>"; };
+		C5B6BBAF256BEE8D002F992A /* PasswordToggleVisibilityView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordToggleVisibilityView.swift; sourceTree = "<group>"; };
+		D75B156F7A5E85B0813A02CD /* Pods-TUNK_PROJECT-TUNK_PROJECTUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TUNK_PROJECT-TUNK_PROJECTUITests.debug.xcconfig"; path = "Target Support Files/Pods-TUNK_PROJECT-TUNK_PROJECTUITests/Pods-TUNK_PROJECT-TUNK_PROJECTUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DDE5329DDC18F3382D68AE04 /* Pods-TUNK_PROJECT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TUNK_PROJECT.debug.xcconfig"; path = "Target Support Files/Pods-TUNK_PROJECT/Pods-TUNK_PROJECT.debug.xcconfig"; sourceTree = "<group>"; };
+		F8F07E8F88C1397796150A61 /* Pods_TUNK_PROJECT_TUNK_PROJECTUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TUNK_PROJECT_TUNK_PROJECTUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +118,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96282336E6E30D35BFE6F816 /* Pods_TUNK_PROJECT.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +126,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FAD9B13821744946A328157 /* Pods_TUNK_PROJECTTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,12 +134,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACED5E6453945CE43C15D7D3 /* Pods_TUNK_PROJECT_TUNK_PROJECTUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		11960448BA1A005DD41B5EB9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				35587B46297210CCC82FCB0C /* Pods_TUNK_PROJECT.framework */,
+				F8F07E8F88C1397796150A61 /* Pods_TUNK_PROJECT_TUNK_PROJECTUITests.framework */,
+				43891A8F7EFC7E334B42591C /* Pods_TUNK_PROJECTTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		520AE86925667FCF002D0936 = {
 			isa = PBXGroup;
 			children = (
@@ -111,6 +158,8 @@
 				520AE88B25667FD1002D0936 /* TUNK_PROJECTTests */,
 				520AE89625667FD1002D0936 /* TUNK_PROJECTUITests */,
 				520AE87325667FCF002D0936 /* Products */,
+				7CAF0DFA8D5773E362688689 /* Pods */,
+				11960448BA1A005DD41B5EB9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -127,6 +176,7 @@
 		520AE87425667FCF002D0936 /* TUNK_PROJECT */ = {
 			isa = PBXGroup;
 			children = (
+				C5B6BBA4256BEE68002F992A /* HideShowPasswordTextField */,
 				529FF975256B22AE00456EC9 /* SignIn */,
 				529FF974256B22A400456EC9 /* SignUp */,
 				529462792567E55D003B4B0C /* RecoveryAccount */,
@@ -218,6 +268,37 @@
 			path = AleartRecoverySender;
 			sourceTree = "<group>";
 		};
+		7CAF0DFA8D5773E362688689 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DDE5329DDC18F3382D68AE04 /* Pods-TUNK_PROJECT.debug.xcconfig */,
+				55D481691A696D70757DADBF /* Pods-TUNK_PROJECT.release.xcconfig */,
+				D75B156F7A5E85B0813A02CD /* Pods-TUNK_PROJECT-TUNK_PROJECTUITests.debug.xcconfig */,
+				5E630D8646BE17462D675E06 /* Pods-TUNK_PROJECT-TUNK_PROJECTUITests.release.xcconfig */,
+				0C1A36FF54F28549A220B0FD /* Pods-TUNK_PROJECTTests.debug.xcconfig */,
+				73FB44C883FE262E2409F12E /* Pods-TUNK_PROJECTTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C5B6BBA4256BEE68002F992A /* HideShowPasswordTextField */ = {
+			isa = PBXGroup;
+			children = (
+				C5B6BBAA256BEE8D002F992A /* HideShowPasswordTextField.swift */,
+				C5B6BBA6256BEE8D002F992A /* ic_eye_closed@2x.png */,
+				C5B6BBA7256BEE8D002F992A /* ic_eye_closed@3x.png */,
+				C5B6BBAC256BEE8D002F992A /* ic_eye_closed.png */,
+				C5B6BBAD256BEE8D002F992A /* ic_eye_open@2x.png */,
+				C5B6BBAB256BEE8D002F992A /* ic_eye_open@3x.png */,
+				C5B6BBA8256BEE8D002F992A /* ic_eye_open.png */,
+				C5B6BBA9256BEE8D002F992A /* ic_password_checkmark@2x.png */,
+				C5B6BBAE256BEE8D002F992A /* ic_password_checkmark@3x.png */,
+				C5B6BBA5256BEE8D002F992A /* ic_password_checkmark.png */,
+				C5B6BBAF256BEE8D002F992A /* PasswordToggleVisibilityView.swift */,
+			);
+			path = HideShowPasswordTextField;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -225,9 +306,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 520AE89C25667FD1002D0936 /* Build configuration list for PBXNativeTarget "TUNK_PROJECT" */;
 			buildPhases = (
+				11D8689449D9FFC4AFF75499 /* [CP] Check Pods Manifest.lock */,
 				520AE86E25667FCF002D0936 /* Sources */,
 				520AE86F25667FCF002D0936 /* Frameworks */,
 				520AE87025667FCF002D0936 /* Resources */,
+				CC216DFC3D61A22C402D8337 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -242,6 +325,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 520AE89F25667FD1002D0936 /* Build configuration list for PBXNativeTarget "TUNK_PROJECTTests" */;
 			buildPhases = (
+				A5D7E4FEC22D97F7BC60CE79 /* [CP] Check Pods Manifest.lock */,
 				520AE88425667FD1002D0936 /* Sources */,
 				520AE88525667FD1002D0936 /* Frameworks */,
 				520AE88625667FD1002D0936 /* Resources */,
@@ -260,9 +344,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 520AE8A225667FD1002D0936 /* Build configuration list for PBXNativeTarget "TUNK_PROJECTUITests" */;
 			buildPhases = (
+				87BC294AF1D8B641573CC543 /* [CP] Check Pods Manifest.lock */,
 				520AE88F25667FD1002D0936 /* Sources */,
 				520AE89025667FD1002D0936 /* Frameworks */,
 				520AE89125667FD1002D0936 /* Resources */,
+				9247A4B4F691D6D8C0B2086A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -322,16 +408,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5B6BBB8256BEE8D002F992A /* ic_eye_open@2x.png in Resources */,
+				C5B6BBB4256BEE8D002F992A /* ic_password_checkmark@2x.png in Resources */,
+				C5B6BBB6256BEE8D002F992A /* ic_eye_open@3x.png in Resources */,
 				5297D70B256947BC005A545C /* Background-Trunk.png in Resources */,
 				520AE88225667FD0002D0936 /* LaunchScreen.storyboard in Resources */,
 				52A19D8125680AEC0063BBEC /* AleartRecoverySender.storyboard in Resources */,
 				529FF97F256B230200456EC9 /* SignUp.storyboard in Resources */,
 				529FF982256B245E00456EC9 /* Bg-Sign-In.png in Resources */,
+				C5B6BBB7256BEE8D002F992A /* ic_eye_closed.png in Resources */,
+				C5B6BBB9256BEE8D002F992A /* ic_password_checkmark@3x.png in Resources */,
 				520AE8A82566809A002D0936 /* LogoTrunk.png in Resources */,
+				C5B6BBB0256BEE8D002F992A /* ic_password_checkmark.png in Resources */,
 				5297D708256944FA005A545C /* LOGO-SPLASH-SCREEN.png in Resources */,
+				C5B6BBB2256BEE8D002F992A /* ic_eye_closed@3x.png in Resources */,
+				C5B6BBB3256BEE8D002F992A /* ic_eye_open.png in Resources */,
 				520AE87F25667FD0002D0936 /* Assets.xcassets in Resources */,
 				529FF979256B22CF00456EC9 /* SignIn.storyboard in Resources */,
 				529FF973256B203D00456EC9 /* Captura de Tela 2020-11-22 às 19.38.03.png in Resources */,
+				C5B6BBB1256BEE8D002F992A /* ic_eye_closed@2x.png in Resources */,
 				520AE87D25667FCF002D0936 /* Main.storyboard in Resources */,
 				529FF983256B245E00456EC9 /* Bg-Sign-up.png in Resources */,
 				5294627D2567E5A6003B4B0C /* RecoveryAccount.storyboard in Resources */,
@@ -354,16 +449,121 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		11D8689449D9FFC4AFF75499 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TUNK_PROJECT-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87BC294AF1D8B641573CC543 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TUNK_PROJECT-TUNK_PROJECTUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9247A4B4F691D6D8C0B2086A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TUNK_PROJECT-TUNK_PROJECTUITests/Pods-TUNK_PROJECT-TUNK_PROJECTUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TUNK_PROJECT-TUNK_PROJECTUITests/Pods-TUNK_PROJECT-TUNK_PROJECTUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TUNK_PROJECT-TUNK_PROJECTUITests/Pods-TUNK_PROJECT-TUNK_PROJECTUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5D7E4FEC22D97F7BC60CE79 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TUNK_PROJECTTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC216DFC3D61A22C402D8337 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TUNK_PROJECT/Pods-TUNK_PROJECT-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TUNK_PROJECT/Pods-TUNK_PROJECT-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TUNK_PROJECT/Pods-TUNK_PROJECT-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		520AE86E25667FCF002D0936 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				520AE87A25667FCF002D0936 /* ViewController.swift in Sources */,
+				C5B6BBB5256BEE8D002F992A /* HideShowPasswordTextField.swift in Sources */,
 				529FF97D256B22FA00456EC9 /* SignUpViewController.swift in Sources */,
 				5294627B2567E59B003B4B0C /* RecoveryAccountViewController.swift in Sources */,
 				529FF977256B22C600456EC9 /* SignInViewController.swift in Sources */,
 				520AE87625667FCF002D0936 /* AppDelegate.swift in Sources */,
+				C5B6BBBA256BEE8D002F992A /* PasswordToggleVisibilityView.swift in Sources */,
 				52A19D7F25680AD90063BBEC /* AleartRecoverySenderViewController.swift in Sources */,
 				520AE87825667FCF002D0936 /* SceneDelegate.swift in Sources */,
 			);
@@ -536,6 +736,7 @@
 		};
 		520AE89D25667FD1002D0936 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DDE5329DDC18F3382D68AE04 /* Pods-TUNK_PROJECT.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -553,6 +754,7 @@
 		};
 		520AE89E25667FD1002D0936 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55D481691A696D70757DADBF /* Pods-TUNK_PROJECT.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -570,6 +772,7 @@
 		};
 		520AE8A025667FD1002D0936 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C1A36FF54F28549A220B0FD /* Pods-TUNK_PROJECTTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -591,6 +794,7 @@
 		};
 		520AE8A125667FD1002D0936 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73FB44C883FE262E2409F12E /* Pods-TUNK_PROJECTTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -612,6 +816,7 @@
 		};
 		520AE8A325667FD1002D0936 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D75B156F7A5E85B0813A02CD /* Pods-TUNK_PROJECT-TUNK_PROJECTUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -631,6 +836,7 @@
 		};
 		520AE8A425667FD1002D0936 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E630D8646BE17462D675E06 /* Pods-TUNK_PROJECT-TUNK_PROJECTUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
