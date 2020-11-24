@@ -17,6 +17,10 @@
 		520AE88D25667FD1002D0936 /* TUNK_PROJECTTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520AE88C25667FD1002D0936 /* TUNK_PROJECTTests.swift */; };
 		520AE89825667FD1002D0936 /* TUNK_PROJECTUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520AE89725667FD1002D0936 /* TUNK_PROJECTUITests.swift */; };
 		520AE8A82566809A002D0936 /* LogoTrunk.png in Resources */ = {isa = PBXBuildFile; fileRef = 520AE8A72566809A002D0936 /* LogoTrunk.png */; };
+		526A990B256D5BFD009195A5 /* NoticeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526A990A256D5BFD009195A5 /* NoticeDetailViewController.swift */; };
+		526A990D256D5C06009195A5 /* NoticeDetail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 526A990C256D5C06009195A5 /* NoticeDetail.storyboard */; };
+		526A9914256D6003009195A5 /* NOTICIA-IMAGEM-ILUSTRATIVA.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 526A9913256D6003009195A5 /* NOTICIA-IMAGEM-ILUSTRATIVA.jpg */; };
+		526A9918256D6270009195A5 /* SideBar-BG.png in Resources */ = {isa = PBXBuildFile; fileRef = 526A9917256D6270009195A5 /* SideBar-BG.png */; };
 		5294627B2567E59B003B4B0C /* RecoveryAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5294627A2567E59B003B4B0C /* RecoveryAccountViewController.swift */; };
 		5294627D2567E5A6003B4B0C /* RecoveryAccount.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5294627C2567E5A6003B4B0C /* RecoveryAccount.storyboard */; };
 		5297D708256944FA005A545C /* LOGO-SPLASH-SCREEN.png in Resources */ = {isa = PBXBuildFile; fileRef = 5297D707256944FA005A545C /* LOGO-SPLASH-SCREEN.png */; };
@@ -81,6 +85,10 @@
 		520AE89725667FD1002D0936 /* TUNK_PROJECTUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TUNK_PROJECTUITests.swift; sourceTree = "<group>"; };
 		520AE89925667FD1002D0936 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		520AE8A72566809A002D0936 /* LogoTrunk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LogoTrunk.png; sourceTree = "<group>"; };
+		526A990A256D5BFD009195A5 /* NoticeDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoticeDetailViewController.swift; sourceTree = "<group>"; };
+		526A990C256D5C06009195A5 /* NoticeDetail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NoticeDetail.storyboard; sourceTree = "<group>"; };
+		526A9913256D6003009195A5 /* NOTICIA-IMAGEM-ILUSTRATIVA.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "NOTICIA-IMAGEM-ILUSTRATIVA.jpg"; sourceTree = "<group>"; };
+		526A9917256D6270009195A5 /* SideBar-BG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SideBar-BG.png"; sourceTree = "<group>"; };
 		5294627A2567E59B003B4B0C /* RecoveryAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecoveryAccountViewController.swift; sourceTree = "<group>"; };
 		5294627C2567E5A6003B4B0C /* RecoveryAccount.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RecoveryAccount.storyboard; sourceTree = "<group>"; };
 		5297D707256944FA005A545C /* LOGO-SPLASH-SCREEN.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LOGO-SPLASH-SCREEN.png"; sourceTree = "<group>"; };
@@ -176,6 +184,7 @@
 		520AE87425667FCF002D0936 /* TUNK_PROJECT */ = {
 			isa = PBXGroup;
 			children = (
+				526A9909256D5BDB009195A5 /* NoticeDetail */,
 				C5B6BBA4256BEE68002F992A /* HideShowPasswordTextField */,
 				529FF975256B22AE00456EC9 /* SignIn */,
 				529FF974256B22A400456EC9 /* SignUp */,
@@ -209,6 +218,15 @@
 			path = TUNK_PROJECTUITests;
 			sourceTree = "<group>";
 		};
+		526A9909256D5BDB009195A5 /* NoticeDetail */ = {
+			isa = PBXGroup;
+			children = (
+				526A990A256D5BFD009195A5 /* NoticeDetailViewController.swift */,
+				526A990C256D5C06009195A5 /* NoticeDetail.storyboard */,
+			);
+			path = NoticeDetail;
+			sourceTree = "<group>";
+		};
 		529462792567E55D003B4B0C /* RecoveryAccount */ = {
 			isa = PBXGroup;
 			children = (
@@ -222,6 +240,8 @@
 		5297D70925694642005A545C /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				526A9917256D6270009195A5 /* SideBar-BG.png */,
+				526A9913256D6003009195A5 /* NOTICIA-IMAGEM-ILUSTRATIVA.jpg */,
 				529FF980256B245D00456EC9 /* Bg-Sign-In.png */,
 				529FF981256B245D00456EC9 /* Bg-Sign-up.png */,
 				529FF972256B203D00456EC9 /* Captura de Tela 2020-11-22 às 19.38.03.png */,
@@ -421,13 +441,16 @@
 				520AE8A82566809A002D0936 /* LogoTrunk.png in Resources */,
 				C5B6BBB0256BEE8D002F992A /* ic_password_checkmark.png in Resources */,
 				5297D708256944FA005A545C /* LOGO-SPLASH-SCREEN.png in Resources */,
+				526A9914256D6003009195A5 /* NOTICIA-IMAGEM-ILUSTRATIVA.jpg in Resources */,
 				C5B6BBB2256BEE8D002F992A /* ic_eye_closed@3x.png in Resources */,
 				C5B6BBB3256BEE8D002F992A /* ic_eye_open.png in Resources */,
+				526A9918256D6270009195A5 /* SideBar-BG.png in Resources */,
 				520AE87F25667FD0002D0936 /* Assets.xcassets in Resources */,
 				529FF979256B22CF00456EC9 /* SignIn.storyboard in Resources */,
 				529FF973256B203D00456EC9 /* Captura de Tela 2020-11-22 às 19.38.03.png in Resources */,
 				C5B6BBB1256BEE8D002F992A /* ic_eye_closed@2x.png in Resources */,
 				520AE87D25667FCF002D0936 /* Main.storyboard in Resources */,
+				526A990D256D5C06009195A5 /* NoticeDetail.storyboard in Resources */,
 				529FF983256B245E00456EC9 /* Bg-Sign-up.png in Resources */,
 				5294627D2567E5A6003B4B0C /* RecoveryAccount.storyboard in Resources */,
 			);
@@ -561,6 +584,7 @@
 				C5B6BBB5256BEE8D002F992A /* HideShowPasswordTextField.swift in Sources */,
 				529FF97D256B22FA00456EC9 /* SignUpViewController.swift in Sources */,
 				5294627B2567E59B003B4B0C /* RecoveryAccountViewController.swift in Sources */,
+				526A990B256D5BFD009195A5 /* NoticeDetailViewController.swift in Sources */,
 				529FF977256B22C600456EC9 /* SignInViewController.swift in Sources */,
 				520AE87625667FCF002D0936 /* AppDelegate.swift in Sources */,
 				C5B6BBBA256BEE8D002F992A /* PasswordToggleVisibilityView.swift in Sources */,
