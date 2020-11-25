@@ -32,6 +32,36 @@ class SignInViewController: UIViewController {
         }
     }
     
+    @IBAction func buttonRegisterGoogle(_ sender: Any) {
+        let alert = UIAlertController(title: "Atenção", message: "Funcionalidade em desenvolvimento", preferredStyle: .alert)
+
+        let okAction = UIAlertAction(title: "OK", style: .cancel) { (UIAlertAction) in
+        }
+        alert.addAction(okAction)
+        self.present(alert, animated: true) {
+           
+        }
+    }
+    @IBAction func buttonRegisterFacebook(_ sender: Any) {
+        let alert = UIAlertController(title: "Atenção", message: "Funcionalidade em desenvolvimento", preferredStyle: .alert)
+
+        let okAction = UIAlertAction(title: "OK", style: .cancel) { (UIAlertAction) in
+        }
+        alert.addAction(okAction)
+        self.present(alert, animated: true) {
+           
+        }
+    }
+    @IBAction func buttonRegisterApple(_ sender: Any) {
+        let alert = UIAlertController(title: "Atenção", message: "Funcionalidade em desenvolvimento", preferredStyle: .alert)
+
+        let okAction = UIAlertAction(title: "OK", style: .cancel) { (UIAlertAction) in
+        }
+        alert.addAction(okAction)
+        self.present(alert, animated: true) {
+           
+        }
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()

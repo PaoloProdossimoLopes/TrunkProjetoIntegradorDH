@@ -13,7 +13,10 @@ class SignUpViewController: UIViewController {
     @IBAction func OpenSignInSceen(_ sender: Any) {
         if let OpenSignInSceen = UIStoryboard(name: "SignIn", bundle: nil).instantiateInitialViewController() as? SignInViewController {
                  
-            present(OpenSignInSceen, animated: true, completion: nil)
+            present(OpenSignInSceen, animated: false, completion: nil)
+           
+        
+            
         }
     }
 
