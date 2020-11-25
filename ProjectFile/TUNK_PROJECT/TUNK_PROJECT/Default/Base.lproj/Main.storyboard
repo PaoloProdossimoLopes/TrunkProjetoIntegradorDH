@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TUNK_PROJECT" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="overFullScreen" id="BYZ-38-t0r" customClass="ViewController" customModule="TUNK_PROJECT" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -18,7 +20,7 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Captura de Tela 2020-11-22 às 19.38.03.png" translatesAutoresizingMaskIntoConstraints="NO" id="T1P-C2-VJp">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
-                            <button opaque="NO" alpha="0.69999999999999996" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qe4-Cl-bXA">
+                            <button opaque="NO" alpha="0.69999999999999996" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qe4-Cl-bXA">
                                 <rect key="frame" x="79" y="714" width="75" height="74"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="75" id="Xg9-fd-yUu"/>
@@ -30,8 +32,8 @@
                                     <action selector="OpenSignInSceen:" destination="BYZ-38-t0r" eventType="touchUpInside" id="U5K-aH-esj"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" alpha="0.69999999999999996" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r2P-UR-sCG">
-                                <rect key="frame" x="289" y="714" width="75" height="73.5"/>
+                            <button opaque="NO" alpha="0.69999999999999996" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="r2P-UR-sCG">
+                                <rect key="frame" x="289" y="713.5" width="75" height="74"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="75" id="0PL-W9-zwV"/>
                                     <constraint firstAttribute="height" constant="75" id="la3-97-riw"/>
@@ -43,7 +45,8 @@
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemGray5Color" red="0.8980392157" green="0.8980392157" blue="0.91764705879999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemGray5Color"/>
                         <constraints>
                             <constraint firstItem="T1P-C2-VJp" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="17P-1m-hXz"/>
                             <constraint firstItem="Qe4-Cl-bXA" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="669.5" id="1GD-ZW-ah0"/>
@@ -54,7 +57,6 @@
                             <constraint firstItem="r2P-UR-sCG" firstAttribute="leading" secondItem="Qe4-Cl-bXA" secondAttribute="trailing" constant="135" id="xAp-Vz-LB3"/>
                             <constraint firstItem="Qe4-Cl-bXA" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="79" id="zRp-HF-SDe"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -65,6 +67,9 @@
     <resources>
         <image name="Captura de Tela 2020-11-22 às 19.38.03.png" width="299" height="647"/>
         <image name="person.circle.fill" catalog="system" width="128" height="121"/>
-        <image name="rectangle.and.paperclip" catalog="system" width="128" height="100"/>
+        <image name="rectangle.and.paperclip" catalog="system" width="128" height="99"/>
+        <systemColor name="systemGray5Color">
+            <color red="0.89803921568627454" green="0.89803921568627454" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
     </resources>
 </document>

@@ -17,5 +17,6 @@ target 'TUNK_PROJECT' do
   end
 
   pod 'HideShowPasswordTextField', :git => 'https://github.com/Guidebook/HideShowPasswordTextField'
+  pod 'SwiftGifOrigin'
 
 end

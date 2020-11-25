@@ -1,8 +1,14 @@
 PODS:
   - HideShowPasswordTextField (0.3)
+  - SwiftGifOrigin (1.7.0)
 
 DEPENDENCIES:
   - HideShowPasswordTextField (from `https://github.com/Guidebook/HideShowPasswordTextField`)
+  - SwiftGifOrigin
+
+SPEC REPOS:
+  trunk:
+    - SwiftGifOrigin
 
 EXTERNAL SOURCES:
   HideShowPasswordTextField:
@@ -15,7 +21,8 @@ CHECKOUT OPTIONS:
 
 SPEC CHECKSUMS:
   HideShowPasswordTextField: 9426177a6b6498a6084e29ad65bba7d1157951b7
+  SwiftGifOrigin: fbd6cf37afcfcf97a5c3db996ddc0492e5c5c145
 
-PODFILE CHECKSUM: 75067bd6bf7f4df5edb89f45847b68c55a1f6cf7
+PODFILE CHECKSUM: c53007248ede259123dafc484a4354167e12e9c9
 
 COCOAPODS: 1.10.0
