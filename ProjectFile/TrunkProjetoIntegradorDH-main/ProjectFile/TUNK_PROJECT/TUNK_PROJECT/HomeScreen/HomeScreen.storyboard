@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="8Bs-pr-tx7">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="8Bs-pr-tx7">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="collection view cell content view" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -27,7 +25,7 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="owu-vV-xio">
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="owu-vV-xio">
                                 <rect key="frame" x="20" y="65" width="46" height="37"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" backgroundImage="sidebar.left" catalog="system"/>
@@ -37,7 +35,7 @@
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="26"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
-                                <color key="shadowColor" systemColor="labelColor"/>
+                                <color key="shadowColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <size key="shadowOffset" width="2" height="2"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Notícias de Tecnologia" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lJ0-gy-y4U">
@@ -105,7 +103,7 @@
                             <view alpha="0.80000000000000004" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JOd-2j-MJN">
                                 <rect key="frame" x="0.0" y="808" width="414" height="88"/>
                                 <subviews>
-                                    <button opaque="NO" alpha="0.40000000000000002" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="31u-Ju-fhP">
+                                    <button opaque="NO" alpha="0.40000000000000002" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="31u-Ju-fhP">
                                         <rect key="frame" x="125" y="9" width="45" height="43"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="45" id="aa4-hN-5wa"/>
@@ -115,7 +113,7 @@
                                         <state key="normal" backgroundImage="magnifyingglass" catalog="system"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FBX-HO-OAA">
-                                        <rect key="frame" x="25" y="8" width="45" height="45"/>
+                                        <rect key="frame" x="25" y="7.5" width="45" height="44.5"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="45" id="Dt4-uq-awW"/>
                                             <constraint firstAttribute="width" constant="45" id="H8f-By-wG6"/>
@@ -123,7 +121,7 @@
                                         <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" backgroundImage="house.fill" catalog="system"/>
                                     </button>
-                                    <button opaque="NO" alpha="0.40000000000000002" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lfx-m1-EHb">
+                                    <button opaque="NO" alpha="0.40000000000000002" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lfx-m1-EHb">
                                         <rect key="frame" x="348" y="7.5" width="45" height="42"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="45" id="KY8-BU-S3y"/>
@@ -135,7 +133,7 @@
                                             <action selector="actionButtonProfile:" destination="8Bs-pr-tx7" eventType="touchUpInside" id="eE8-Ip-5e3"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" alpha="0.40000000000000002" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Tv-2C-2C4">
+                                    <button opaque="NO" alpha="0.40000000000000002" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Tv-2C-2C4">
                                         <rect key="frame" x="240" y="10" width="45" height="45"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="45" id="2P0-Tp-jBo"/>
@@ -145,7 +143,7 @@
                                         <state key="normal" backgroundImage="bookmark.fill" catalog="system"/>
                                     </button>
                                 </subviews>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <constraints>
                                     <constraint firstItem="FBX-HO-OAA" firstAttribute="leading" secondItem="JOd-2j-MJN" secondAttribute="leading" constant="25" id="Ck8-am-K8R"/>
                                     <constraint firstItem="2Tv-2C-2C4" firstAttribute="top" secondItem="JOd-2j-MJN" secondAttribute="top" constant="10" id="HyO-W6-waI"/>
@@ -209,7 +207,6 @@
                                 </prototypes>
                             </tableView>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="XL8-IZ-YLy"/>
                         <color key="backgroundColor" red="0.38334509729999999" green="0.18473151330000001" blue="0.16861936450000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="lJ0-gy-y4U" firstAttribute="leading" secondItem="XL8-IZ-YLy" secondAttribute="leading" constant="38" id="03f-vu-Jx3"/>
@@ -234,6 +231,7 @@
                             <constraint firstItem="XL8-IZ-YLy" firstAttribute="trailing" secondItem="eiG-zl-EaQ" secondAttribute="trailing" constant="20" id="sl7-Cb-uuJ"/>
                             <constraint firstItem="bRj-FB-dmO" firstAttribute="top" secondItem="lJ0-gy-y4U" secondAttribute="bottom" constant="8.5" id="umf-9a-k7g"/>
                         </constraints>
+                        <viewLayoutGuide key="safeArea" id="XL8-IZ-YLy"/>
                     </view>
                     <navigationItem key="navigationItem" id="hl7-6c-m8u"/>
                     <connections>
@@ -252,11 +250,5 @@
         <image name="magnifyingglass" catalog="system" width="128" height="115"/>
         <image name="person.fill" catalog="system" width="128" height="120"/>
         <image name="sidebar.left" catalog="system" width="128" height="93"/>
-        <systemColor name="labelColor">
-            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
     </resources>
 </document>

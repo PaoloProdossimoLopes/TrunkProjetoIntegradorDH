@@ -40,7 +40,7 @@
                                 </constraints>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" keyboardType="emailAddress"/>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="color" keyPath="placeholderLabel.textColor">
                                         <color key="value" red="1" green="1" blue="1" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
@@ -203,6 +203,10 @@
                         <viewLayoutGuide key="safeArea" id="KQH-wO-ORr"/>
                     </view>
                     <navigationItem key="navigationItem" id="bJh-AH-FE0"/>
+                    <connections>
+                        <outlet property="emailTextLabel" destination="JzC-Y5-MaO" id="Gd0-aR-KSU"/>
+                        <outlet property="passwordTextLabel" destination="V5B-Rv-jEe" id="lHk-Pq-IHX"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8dc-bF-7Pm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

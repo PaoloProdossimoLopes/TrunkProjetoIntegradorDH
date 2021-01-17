@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="q4T-JW-ai4">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="q4T-JW-ai4">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -27,7 +25,7 @@
                                     <constraint firstAttribute="height" constant="100" id="chr-b2-two"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NOME" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yh4-41-MtT">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Paolo" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yh4-41-MtT">
                                 <rect key="frame" x="37" y="234" width="341" height="24"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="341" id="A8Z-LX-BV1"/>
@@ -37,7 +35,7 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="THa-MN-LiF">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="THa-MN-LiF">
                                 <rect key="frame" x="62" y="435" width="325" height="39"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="325" id="BHE-Ln-jdX"/>
@@ -48,7 +46,7 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TCq-fR-HVs">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TCq-fR-HVs">
                                 <rect key="frame" x="62" y="482" width="325" height="39"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="325" id="KmW-II-8Dn"/>
@@ -59,7 +57,7 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xq2-Oc-7me">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xq2-Oc-7me">
                                 <rect key="frame" x="62" y="539" width="325" height="39"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="325" id="m37-05-Uj3"/>
@@ -70,7 +68,7 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9UZ-17-G1Y">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9UZ-17-G1Y">
                                 <rect key="frame" x="62" y="594" width="316" height="39"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="39" id="RwD-JD-GlX"/>
@@ -81,7 +79,7 @@
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rCl-4c-BU9">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rCl-4c-BU9">
                                 <rect key="frame" x="92" y="683" width="230" height="53"/>
                                 <color key="backgroundColor" red="0.076823972170000004" green="0.080226115880000004" blue="0.1085162088" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
@@ -99,7 +97,7 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jop-6p-YaM">
                                 <rect key="frame" x="0.0" y="808" width="414" height="88"/>
                                 <subviews>
-                                    <button opaque="NO" alpha="0.40000000596046448" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KYQ-cR-RCM">
+                                    <button opaque="NO" alpha="0.40000000596046448" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KYQ-cR-RCM">
                                         <rect key="frame" x="125" y="9" width="45" height="43"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="45" id="1rN-AW-UVM"/>
@@ -109,7 +107,7 @@
                                         <state key="normal" backgroundImage="magnifyingglass" catalog="system"/>
                                     </button>
                                     <button opaque="NO" alpha="0.40000000000000002" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RUQ-le-fqK">
-                                        <rect key="frame" x="25" y="8" width="45" height="45"/>
+                                        <rect key="frame" x="25" y="7.5" width="45" height="44.5"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="45" id="a27-yb-JDB"/>
                                             <constraint firstAttribute="width" constant="45" id="emA-EU-BKW"/>
@@ -120,7 +118,7 @@
                                             <action selector="actionButtonHome:" destination="q4T-JW-ai4" eventType="touchUpInside" id="hs3-7B-vBs"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4EP-El-kTQ">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4EP-El-kTQ">
                                         <rect key="frame" x="348" y="7.5" width="45" height="42"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="45" id="IHR-O1-8P4"/>
@@ -129,7 +127,7 @@
                                         <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <state key="normal" backgroundImage="person.fill" catalog="system"/>
                                     </button>
-                                    <button opaque="NO" alpha="0.40000000596046448" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Lu-Nc-KYp">
+                                    <button opaque="NO" alpha="0.40000000596046448" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Lu-Nc-KYp">
                                         <rect key="frame" x="240" y="10" width="45" height="45"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="45" id="eA9-fp-irs"/>
@@ -139,7 +137,7 @@
                                         <state key="normal" backgroundImage="bookmark.fill" catalog="system"/>
                                     </button>
                                 </subviews>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="4EP-El-kTQ" secondAttribute="trailing" constant="21" id="2zh-mv-zVO"/>
                                     <constraint firstItem="RUQ-le-fqK" firstAttribute="top" secondItem="jop-6p-YaM" secondAttribute="top" constant="8" id="8oG-KM-wvE"/>
@@ -154,8 +152,7 @@
                                 </constraints>
                             </view>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="eQp-lv-ZnK"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="THa-MN-LiF" firstAttribute="top" secondItem="Yh4-41-MtT" secondAttribute="bottom" constant="177" id="0Fr-Lf-yy3"/>
                             <constraint firstItem="jop-6p-YaM" firstAttribute="leading" secondItem="eQp-lv-ZnK" secondAttribute="leading" id="1nx-fh-1jQ"/>
@@ -186,6 +183,7 @@
                             <constraint firstItem="TCq-fR-HVs" firstAttribute="top" secondItem="THa-MN-LiF" secondAttribute="bottom" constant="8" id="v8L-o6-nvX"/>
                             <constraint firstItem="9UZ-17-G1Y" firstAttribute="leading" secondItem="eQp-lv-ZnK" secondAttribute="leading" constant="62" id="zpi-dN-uRu"/>
                         </constraints>
+                        <viewLayoutGuide key="safeArea" id="eQp-lv-ZnK"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="B6k-P8-Ksi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -200,8 +198,5 @@
         <image name="house.fill" catalog="system" width="128" height="106"/>
         <image name="magnifyingglass" catalog="system" width="128" height="115"/>
         <image name="person.fill" catalog="system" width="128" height="120"/>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
     </resources>
 </document>

@@ -16,6 +16,7 @@ class NewsCell: UICollectionViewCell {
     func setup(news: News) {
         labelName?.text = news.name
         imageViewPhoto?.image = UIImage(named: news.image)
+        imageViewPhoto.layer.cornerRadius = 10
     }
     
 }

@@ -17,6 +17,7 @@
 		520AE88D25667FD1002D0936 /* TUNK_PROJECTTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520AE88C25667FD1002D0936 /* TUNK_PROJECTTests.swift */; };
 		520AE89825667FD1002D0936 /* TUNK_PROJECTUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520AE89725667FD1002D0936 /* TUNK_PROJECTUITests.swift */; };
 		520AE8A82566809A002D0936 /* LogoTrunk.png in Resources */ = {isa = PBXBuildFile; fileRef = 520AE8A72566809A002D0936 /* LogoTrunk.png */; };
+		524D2F1425B4A21900BD4A37 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 524D2F1325B4A21900BD4A37 /* GoogleService-Info.plist */; };
 		5294627B2567E59B003B4B0C /* RecoveryAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5294627A2567E59B003B4B0C /* RecoveryAccountViewController.swift */; };
 		5294627D2567E5A6003B4B0C /* RecoveryAccount.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5294627C2567E5A6003B4B0C /* RecoveryAccount.storyboard */; };
 		5297D708256944FA005A545C /* LOGO-SPLASH-SCREEN.png in Resources */ = {isa = PBXBuildFile; fileRef = 5297D707256944FA005A545C /* LOGO-SPLASH-SCREEN.png */; };
@@ -100,6 +101,7 @@
 		520AE89725667FD1002D0936 /* TUNK_PROJECTUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TUNK_PROJECTUITests.swift; sourceTree = "<group>"; };
 		520AE89925667FD1002D0936 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		520AE8A72566809A002D0936 /* LogoTrunk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LogoTrunk.png; sourceTree = "<group>"; };
+		524D2F1325B4A21900BD4A37 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		5294627A2567E59B003B4B0C /* RecoveryAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecoveryAccountViewController.swift; sourceTree = "<group>"; };
 		5294627C2567E5A6003B4B0C /* RecoveryAccount.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RecoveryAccount.storyboard; sourceTree = "<group>"; };
 		5297D707256944FA005A545C /* LOGO-SPLASH-SCREEN.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LOGO-SPLASH-SCREEN.png"; sourceTree = "<group>"; };
@@ -233,6 +235,7 @@
 				520AE87E25667FD0002D0936 /* Assets.xcassets */,
 				520AE88025667FD0002D0936 /* LaunchScreen.storyboard */,
 				520AE88325667FD0002D0936 /* Info.plist */,
+				524D2F1325B4A21900BD4A37 /* GoogleService-Info.plist */,
 			);
 			path = TUNK_PROJECT;
 			sourceTree = "<group>";
@@ -432,6 +435,7 @@
 				520AE86F25667FCF002D0936 /* Frameworks */,
 				520AE87025667FCF002D0936 /* Resources */,
 				CC216DFC3D61A22C402D8337 /* [CP] Embed Pods Frameworks */,
+				A1513743072706B325700F6E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -470,6 +474,7 @@
 				520AE89025667FD1002D0936 /* Frameworks */,
 				520AE89125667FD1002D0936 /* Resources */,
 				9247A4B4F691D6D8C0B2086A /* [CP] Embed Pods Frameworks */,
+				5709C816751BD71B9A1E524F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -540,6 +545,7 @@
 				529FF982256B245E00456EC9 /* Bg-Sign-In.png in Resources */,
 				C5B6BBB7256BEE8D002F992A /* ic_eye_closed.png in Resources */,
 				C5B6BBB9256BEE8D002F992A /* ic_password_checkmark@3x.png in Resources */,
+				524D2F1425B4A21900BD4A37 /* GoogleService-Info.plist in Resources */,
 				C5B6BBCC256C082F002F992A /* LoadingAfterLogin.storyboard in Resources */,
 				C5C8DF92256E695B00D2864B /* Perfil-BG.png in Resources */,
 				520AE8A82566809A002D0936 /* LogoTrunk.png in Resources */,
@@ -604,6 +610,23 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		5709C816751BD71B9A1E524F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TUNK_PROJECT-TUNK_PROJECTUITests/Pods-TUNK_PROJECT-TUNK_PROJECTUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TUNK_PROJECT-TUNK_PROJECTUITests/Pods-TUNK_PROJECT-TUNK_PROJECTUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TUNK_PROJECT-TUNK_PROJECTUITests/Pods-TUNK_PROJECT-TUNK_PROJECTUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		87BC294AF1D8B641573CC543 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -641,6 +664,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TUNK_PROJECT-TUNK_PROJECTUITests/Pods-TUNK_PROJECT-TUNK_PROJECTUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1513743072706B325700F6E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TUNK_PROJECT/Pods-TUNK_PROJECT-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TUNK_PROJECT/Pods-TUNK_PROJECT-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TUNK_PROJECT/Pods-TUNK_PROJECT-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A5D7E4FEC22D97F7BC60CE79 /* [CP] Check Pods Manifest.lock */ = {

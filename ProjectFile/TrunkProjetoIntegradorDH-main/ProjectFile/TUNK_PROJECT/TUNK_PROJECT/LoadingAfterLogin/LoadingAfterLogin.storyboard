@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="cYF-Gb-KdJ">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="cYF-Gb-KdJ">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -29,7 +27,7 @@
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UZI-fX-Og9">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UZI-fX-Og9">
                                         <rect key="frame" x="99" y="403" width="119" height="30"/>
                                         <state key="normal" title="AVANÇAR (temp)"/>
                                         <connections>
@@ -40,7 +38,7 @@
                                         <rect key="frame" x="94" y="226" width="128" height="128"/>
                                     </imageView>
                                 </subviews>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <constraints>
                                     <constraint firstItem="NuB-9n-aXo" firstAttribute="top" secondItem="FS1-rg-BC5" secondAttribute="top" constant="39" id="1fv-Lv-fJ7"/>
                                     <constraint firstItem="ole-nE-lvk" firstAttribute="leading" secondItem="FS1-rg-BC5" secondAttribute="leading" constant="94" id="75f-fv-83e"/>
@@ -55,15 +53,16 @@
                                 </constraints>
                             </view>
                         </subviews>
-                        <viewLayoutGuide key="safeArea" id="8RD-FJ-bhQ"/>
                         <constraints>
                             <constraint firstItem="8RD-FJ-bhQ" firstAttribute="bottom" secondItem="FS1-rg-BC5" secondAttribute="bottom" constant="172" id="7Mt-Lm-mpS"/>
                             <constraint firstItem="FS1-rg-BC5" firstAttribute="leading" secondItem="8RD-FJ-bhQ" secondAttribute="leading" constant="49" id="TeG-s8-mNs"/>
                             <constraint firstItem="8RD-FJ-bhQ" firstAttribute="trailing" secondItem="FS1-rg-BC5" secondAttribute="trailing" constant="49" id="hkd-f9-olC"/>
                             <constraint firstItem="FS1-rg-BC5" firstAttribute="top" secondItem="8RD-FJ-bhQ" secondAttribute="top" constant="172" id="x0J-gi-ZIT"/>
                         </constraints>
+                        <viewLayoutGuide key="safeArea" id="8RD-FJ-bhQ"/>
                     </view>
                     <connections>
+                        <outlet property="LoadingView" destination="FS1-rg-BC5" id="PA0-WD-DWg"/>
                         <outlet property="labelLoading" destination="NuB-9n-aXo" id="HNC-Rz-C5e"/>
                         <outlet property="loadingGifImageView" destination="ole-nE-lvk" id="n9W-hR-8ch"/>
                     </connections>
@@ -73,9 +72,4 @@
             <point key="canvasLocation" x="213.04347826086959" y="138.61607142857142"/>
         </scene>
     </scenes>
-    <resources>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-    </resources>
 </document>

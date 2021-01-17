@@ -40,6 +40,9 @@
                                 <state key="normal" title="CADASTRAR">
                                     <color key="titleColor" red="0.076823972170000004" green="0.080226115880000004" blue="0.1085162088" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="registerButtonAction:" destination="44E-M5-FhV" eventType="touchUpInside" id="seD-Jz-Yy7"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ao se cadatrar, estará concordando com os termos de serviço, e politicas de privacidades" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZIg-cr-oG6">
                                 <rect key="frame" x="20" y="640" width="374" height="122"/>
@@ -227,6 +230,13 @@
                         <viewLayoutGuide key="safeArea" id="0Os-u6-ixm"/>
                     </view>
                     <navigationItem key="navigationItem" id="xxB-Yu-SrK"/>
+                    <connections>
+                        <outlet property="emailTextField" destination="iwb-Ut-c8h" id="hQU-CE-IR5"/>
+                        <outlet property="lastNametextField" destination="lwc-qu-QwA" id="IK1-bS-9bG"/>
+                        <outlet property="nameTextField" destination="SlS-Ed-01O" id="Oix-Cm-i7j"/>
+                        <outlet property="passwordTextField" destination="luN-wB-H0g" id="yJv-M3-eMj"/>
+                        <outlet property="registerButton" destination="RAb-z6-cSB" id="28N-tp-CHL"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="viy-6v-qaz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

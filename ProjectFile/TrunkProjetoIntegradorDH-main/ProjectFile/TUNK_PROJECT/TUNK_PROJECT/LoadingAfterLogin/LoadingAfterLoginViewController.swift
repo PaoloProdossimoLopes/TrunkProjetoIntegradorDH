@@ -11,6 +11,21 @@ import SwiftGifOrigin
 
 class LoadingAfterLoginViewController: UIViewController {
     
+    
+//    private let email:String
+//    private let result:String
+//    
+//    init(email: String, result:String){
+//        self.email = email
+//        self.result = result
+//        super.init(nibName:nil, bundle: nil)
+//    }
+//    
+//    required init?(coder: NSCoder) {
+//        fatalError("init(coder:) has not been implemented")
+//    }
+    
+    @IBOutlet weak var LoadingView: UIView!
     @IBOutlet weak var loadingGifImageView: UIImageView!
     @IBOutlet weak var labelLoading: UILabel!
     //@IBOutlet weak var buttonNextScreen: UIButton!
@@ -19,7 +34,7 @@ class LoadingAfterLoginViewController: UIViewController {
         //dismiss(animated: true, completion: nil)
         
         //print ("AAAA")
-        if let openHomeScreen = UIStoryboard(name: "HomeScreen", bundle: nil).instantiateInitialViewController() as? HomeScreenViewController {
+        if let openHomeScreen = UIStoryboard(name: "PerfilPage", bundle: nil).instantiateInitialViewController() as? ProfilePageViewController {
             //navigationController?.pushViewController(openHomeScreen, animated: true)
             present(openHomeScreen, animated: true, completion: nil)
             
@@ -50,6 +65,8 @@ class LoadingAfterLoginViewController: UIViewController {
         // Gif downloaded from loading.io
         loadingGifImageView.image = UIImage.gif(name: "Loading")
         labelLoading.text = "Bem vindo de volta!\n \nÉ ótimo te ver por aqui novamente... \n \nAproveite nossas notícias!"
+        
+        LoadingView.layer.cornerRadius = 12
         
     }
     

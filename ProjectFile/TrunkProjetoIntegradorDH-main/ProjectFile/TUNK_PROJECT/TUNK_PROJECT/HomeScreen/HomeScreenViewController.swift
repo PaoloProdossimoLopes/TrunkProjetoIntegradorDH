@@ -11,6 +11,8 @@ import Alamofire
 
 class HomeScreenViewController: UIViewController {
 
+   
+
     @IBOutlet weak var collectionViewFavorites: UICollectionView!
     @IBOutlet weak var techTableView: UITableView!
     
@@ -28,6 +30,7 @@ class HomeScreenViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+
         
         collectionViewFavorites.delegate = self
         collectionViewFavorites.dataSource = self
