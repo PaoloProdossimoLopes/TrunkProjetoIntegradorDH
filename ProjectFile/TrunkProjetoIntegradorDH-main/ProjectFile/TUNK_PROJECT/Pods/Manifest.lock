@@ -1,0 +1,32 @@
+PODS:
+  - Alamofire (5.4.0)
+  - HideShowPasswordTextField (0.3)
+  - SwiftGifOrigin (1.7.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - HideShowPasswordTextField (from `https://github.com/Guidebook/HideShowPasswordTextField`)
+  - SwiftGifOrigin
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - SwiftGifOrigin
+
+EXTERNAL SOURCES:
+  HideShowPasswordTextField:
+    :git: https://github.com/Guidebook/HideShowPasswordTextField
+
+CHECKOUT OPTIONS:
+  HideShowPasswordTextField:
+    :commit: d85212236651d141ba387b65edcff9940ab894f3
+    :git: https://github.com/Guidebook/HideShowPasswordTextField
+
+SPEC CHECKSUMS:
+  Alamofire: 3b6a534a3df22db367e4dedeeca73d1ddfcf0e2f
+  HideShowPasswordTextField: 9426177a6b6498a6084e29ad65bba7d1157951b7
+  SwiftGifOrigin: fbd6cf37afcfcf97a5c3db996ddc0492e5c5c145
+
+PODFILE CHECKSUM: 1997cc845bcadd10d502555b7649a33b97a59174
+
+COCOAPODS: 1.10.0
