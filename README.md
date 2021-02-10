@@ -84,7 +84,6 @@ badges fom https://github-badges.netlify.app/
 <p align="center"><img src="https://github.com/PaoloProdossimoLopes/TrunkProjetoIntegradorDH/blob/main/images/TheAuthors.png"/><p>
 <p align="center">
   Paolo, paolo.prodossimo.lopes@gmail.com<br> 
-  Marcelo, marceloabisquarisi@gmail.com<br>
   Raphael, rap.oliveira@usp.br
 </p>
 <!--## LICENSE-->
