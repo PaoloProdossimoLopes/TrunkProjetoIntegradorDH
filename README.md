@@ -64,10 +64,13 @@ badges fom https://github-badges.netlify.app/
 <!--## MAIN FEATURES-->
 <p align="center"><img src="https://github.com/PaoloProdossimoLopes/TrunkProjetoIntegradorDH/blob/main/images/MainFeatures.png"/><p>
 <p align="center">
-    * Create a account.<br/>
-    * Follow the best information from geek, science and technology.<br/>
-    * Read news <br/>
-    * Update on realtime with RSS
+    - Create a account.<br/>
+    - Follow the best information from geek, science and technology.<br/>
+    - search news.<br/>
+    - login with Gmail.<br/>
+    - login with Facebook.<br/>
+    - save news with Firebase (Realtime) .<br/>
+    - Read news <br/>
 </p>
 
 
